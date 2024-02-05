@@ -1,0 +1,40 @@
+{
+  "configurations": [
+    {
+      "name": "linux-gcc-x64",
+      "includePath": [
+        "${workspaceFolder}/**"
+      ],
+      "defines": [],
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "${default}",
+      "cppStandard": "${default}",
+      "intelliSenseMode": "linux-gcc-x64",
+      "compilerPathInCppPropertiesJson": "/usr/bin/gcc",
+      "mergeConfigurations": false,
+      "browse": {
+        "path": [
+          "/home/qquark/VSCRepoReal/Distributed/**",
+          "/usr/lib/x86_64-linux-gnu/openmpi/include",
+          "${workspaceFolder}"
+        ],
+        "limitSymbolsToIncludedHeaders": true
+      }
+    },
+    {
+      "name": "ConfigForMPIH",
+      "includePath": [
+        "${workspaceFolder}/**"
+      ],
+      "defines": [],
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "c17",
+      "cppStandard": "gnu++17",
+      "intelliSenseMode": "linux-gcc-x64",
+      "compilerArgs": [
+        "./usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi/"
+      ]
+    }
+  ],
+  "version": 4
+}

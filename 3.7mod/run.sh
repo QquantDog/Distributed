@@ -1,0 +1,1 @@
+gcc -g thr.c -o out -lm -lpthread  && ./out

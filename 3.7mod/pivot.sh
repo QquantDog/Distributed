@@ -1,0 +1,1 @@
+gcc -g pivot.c -o pivot.exe -lm -lpthread  && ./pivot.exe

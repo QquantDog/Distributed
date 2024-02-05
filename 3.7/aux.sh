@@ -1,0 +1,1 @@
+gcc -g aux.c -o aux.exe -lm  && ./aux.exe
